@@ -20,7 +20,7 @@ public class TestCommand implements CommandExecutor, TabCompleter {
     private final DonationListener donationListener;
     private final JavaPlugin plugin;
     private final List<String> actions = Arrays.asList(
-        "GIVE_ITEM", "RANDOM_EFFECT", "SPAWN_MOB", "RANDOM_TELEPORT", "INSTANT_DEATH"
+        "GIVE_ITEM", "RANDOM_EFFECT", "SPAWN_MOB", "RANDOM_TELEPORT", "INSTANT_DEATH" ,"FIXED_TELEPORT"
     );
     private final List<String> amounts = Arrays.asList(
         "1000", "2000", "3000", "5000", "10000"
