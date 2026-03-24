@@ -305,7 +305,7 @@ public class DonationListener implements Listener {
             } catch (NumberFormatException e) {
                 sender.sendMessage("§c올바른 액션명 또는 금액을 입력해주세요.");
                 sender.sendMessage("§7사용 가능한 액션: GIVE_ITEM, RANDOM_EFFECT, " + 
-                    "SPAWN_MOB, RANDOM_TELEPORT, INSTANT_DEATH");
+                    "SPAWN_MOB, RANDOM_TELEPORT, INSTANT_DEATH ,FIXED_TELEPORT");
             }
         }
     }
