@@ -45,6 +45,7 @@ public class DonationListener implements Listener {
         DonationAction randomEffect = new RandomEffectAction();
         DonationAction spawnMob = new SpawnMobAction();
         DonationAction randomTeleport = new RandomTeleportAction();
+        DonationAction firxedTeleport = new FixedTeleportAction();
         DonationAction instantDeath = new InstantDeathAction();
         
         // 플러그인 설정
@@ -52,6 +53,7 @@ public class DonationListener implements Listener {
         randomEffect.setPlugin(plugin);
         spawnMob.setPlugin(plugin);
         randomTeleport.setPlugin(plugin);
+        firxedTeleport.setPlugin(plugin);
         instantDeath.setPlugin(plugin);
         
         // 맵에 액션 등록
@@ -59,6 +61,7 @@ public class DonationListener implements Listener {
         actions.put("RANDOM_EFFECT", randomEffect);
         actions.put("SPAWN_MOB", spawnMob);
         actions.put("RANDOM_TELEPORT", randomTeleport);
+        actions.put("FIXED_TELEPORT", firxedTeleport);
         actions.put("INSTANT_DEATH", instantDeath);
     }
 
